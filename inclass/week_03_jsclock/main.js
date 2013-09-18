@@ -9,6 +9,7 @@ m=checkTime(m);
 s=checkTime(s);
 document.getElementById('time').innerHTML=h+":"+m+":"+s;
 t=setTimeout(function(){startTime()},500);
+findPosition(h, m);
 }
 
 function checkTime(i)
